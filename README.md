@@ -2,7 +2,7 @@
 
 The Jack Compiler is the front-end of a two-tier compiler for a typical object-based programming language. 
 
-Written in Python 3, the Jack Compiler translates high-level Jack programs into virtual-machine code. The compiler's back end - [the Hack Virtual Machine Translator](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links) - transforms the VM code into native code. Two-tier compilers using virtual machines provide flexibility that makes it easier to run program codes on multiple platforms.
+Written in Python 3, the Jack Compiler translates high-level Jack programs into virtual-machine code. The compiler's back end - [the Hack Virtual Machine Translator](https://github.com/ptdriscoll/hack-virtual-machine-translator) - transforms the VM code into native code. Two-tier compilers using virtual machines provide flexibility that makes it easier to run program codes on multiple platforms.
 
 The compiled code is designed to run on a simple general-purpose computer, which is built from scratch in a two-part course called From Nand to Tetris. An accompanying book is called The Elements of Computing Systems: Building a Modern Computer from First Principles. See reference links below. 
 
@@ -20,7 +20,6 @@ Examples from root directory:
 - To translate the data/Average/Main.jack file: `python -m compiler data/Average/Main.jack`
 - To translate all files in the data/Pong directory: `python -m compiler data/Pong`
 - To translate all .jack files and directories in the data directory: `python -m compiler run_all`
-
 - To run a test module, such as test_1_1: `python -m tests.test_1_1`
 - To run a specific test, note addition of unittest: `python -m unittest tests.test_1_1.TestTokenizer.test_advance`
 - To run all tests: `python -m unittest`
@@ -28,8 +27,7 @@ Examples from root directory:
 Examples from compiler directory:
 - To translate the data/Average/Main.jack file: `python JackCompiler.py ../data/Average/Main.jack`
 - To translate all files in the data/Pong directory directory: `python JackCompiler.py ../data/Pong`
-- To translate all .jack files and directories in the data directory: `python JackCompiler.py run_all`  
-
+- To translate all .jack files and directories in the data directory: `python JackCompiler.py run_all`
 - To run the syntax analyzer on the data/Average/Main.jack file: `python JackAnalyzer.py ../data/Average/Main.jack`
 - To run the syntax analyzer on all files in the data/Pong directory directory: `python JackAnalyzer.py ../data/Pong`
 - To run the syntax analyzer on all .jack files and directories in the data directory: `python JackAnalyzer.py run_all`
