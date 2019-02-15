@@ -1,0 +1,6 @@
+class Function_args {
+   function int main(int arg1, int arg2) { 
+      var int a, b;   
+      return a;
+   }
+}

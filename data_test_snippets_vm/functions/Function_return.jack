@@ -1,0 +1,5 @@
+class Function_return {
+   function int main() {  
+      return 10;
+   }
+}

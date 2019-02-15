@@ -1,0 +1,5 @@
+function Method_return.main 0
+push argument 0
+pop pointer 0
+push constant 10
+return

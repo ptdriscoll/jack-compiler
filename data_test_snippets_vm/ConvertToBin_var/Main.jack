@@ -1,0 +1,23 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/11/ConvertToBin/Main.jack
+
+/**
+ * Unpacks a 16-bit number into its binary representation:
+ * Takes the 16-bit number stored in RAM[8000] and stores its individual 
+ * bits in RAM[8001..8016] (each location will contain 0 or 1).
+ * Before the conversion, RAM[8001]..RAM[8016] are initialized to -1.
+ */
+class Main {
+    
+    /**
+     * Initializes RAM[8001]..RAM[8016] to -1,
+     * and converts the value in RAM[8000] to binary.
+     */
+    function void main() {
+	    var int value;
+      var bool value_1, value_2;
+        return;
+    } 
+}

@@ -1,0 +1,7 @@
+    function void test() {  // Added to test Jack syntax that is not use in
+        //let s = "string constant";
+        //let s = null;
+        //let a[1] = a[2];
+        let i = i * (-j);
+        //let j = j / (-2);   // note: unary negate constant 2
+    }

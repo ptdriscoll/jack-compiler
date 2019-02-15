@@ -1,0 +1,3 @@
+function Main.main 3
+push constant 0
+return

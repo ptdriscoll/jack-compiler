@@ -1,0 +1,5 @@
+class Method {
+   method void main() {      
+      return;
+   }
+}

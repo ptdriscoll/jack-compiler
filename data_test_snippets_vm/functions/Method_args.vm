@@ -1,0 +1,5 @@
+function Method_args.main 3
+push argument 0
+pop pointer 0
+push argument 1
+return

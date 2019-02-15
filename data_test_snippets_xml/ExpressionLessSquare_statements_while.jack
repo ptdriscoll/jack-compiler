@@ -1,0 +1,12 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/10/ExpressionLessSquare/Main.jack
+
+/** Expressionless version of projects/10/Square/Main.jack. */
+
+    function void test() {  // Added to test Jack syntax that is not use in
+        while (key) {
+          let key = key;
+          do moveSquare();
+        }

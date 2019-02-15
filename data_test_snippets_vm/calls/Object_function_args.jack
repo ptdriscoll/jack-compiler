@@ -1,0 +1,6 @@
+class Object_function_args {
+   function void main(int arg1, int arg2) { 
+      do Other.action();   
+      return;
+   }
+}

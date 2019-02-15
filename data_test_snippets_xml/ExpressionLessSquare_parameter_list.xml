@@ -1,0 +1,26 @@
+<subroutineDec>
+  <keyword> function </keyword>
+  <keyword> void </keyword>
+  <identifier> main </identifier>
+  <symbol> ( </symbol>
+  <parameterList>
+    <keyword> int </keyword>
+    <identifier> arg1 </identifier>
+    <symbol> , </symbol>
+    <keyword> char </keyword>
+    <identifier> arg2 </identifier>
+    <symbol> , </symbol>
+    <keyword> boolean </keyword>
+    <identifier> arg3 </identifier>
+    <symbol> , </symbol>
+    <identifier> ClassType </identifier>
+    <identifier> ClassInstance </identifier>
+  </parameterList>
+  <symbol> ) </symbol>
+  <subroutineBody>
+    <symbol> { </symbol>
+    <statements>
+    </statements>
+    <symbol> } </symbol>
+  </subroutineBody>
+</subroutineDec>

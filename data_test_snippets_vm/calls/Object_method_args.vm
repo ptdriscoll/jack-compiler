@@ -1,0 +1,8 @@
+function Object_method_args.main 1
+call Other.new 0
+pop local 0
+push local 0
+call Other.action 1
+pop temp 0
+push constant 0
+return

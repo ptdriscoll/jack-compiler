@@ -1,0 +1,13 @@
+function Main.main 0
+push constant 3
+call String.new 1
+push constant 97
+call String.appendChar 2
+push constant 98
+call String.appendChar 2
+push constant 99
+call String.appendChar 2
+call Output.printInt 1
+pop temp 0
+push constant 0
+return

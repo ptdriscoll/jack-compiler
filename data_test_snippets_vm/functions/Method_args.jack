@@ -1,0 +1,6 @@
+class Method_args {
+   method int main(int arg1, int arg2) {      
+      var int a, b, c;   
+      return arg1;
+   }
+}

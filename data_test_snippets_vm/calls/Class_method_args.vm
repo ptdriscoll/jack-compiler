@@ -1,0 +1,15 @@
+function Class_method_args.action 0
+push argument 0
+pop pointer 0
+push constant 0
+return
+function Class_method_args.main 0
+push argument 0
+pop pointer 0
+push pointer 0
+push constant 10
+push constant 20
+call Class_method_args.action 3
+pop temp 0
+push constant 0
+return

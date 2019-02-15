@@ -1,0 +1,15 @@
+function Main.test 2
+push constant 1
+push local 0
+add
+push constant 2
+push local 1
+add
+pop pointer 1
+push that 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 0
+return

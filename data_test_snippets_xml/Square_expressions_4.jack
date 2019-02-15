@@ -1,0 +1,8 @@
+    function void test() {  // Added to test Jack syntax that is not use in
+      if (((y + size) < 254) & ((x + size) < 510)) {
+         do erase();
+         let size = size + 2;
+         do draw();
+      }
+      return;
+    }

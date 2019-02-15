@@ -1,0 +1,41 @@
+<subroutineDec>
+  <keyword> function </keyword>
+  <keyword> void </keyword>
+  <identifier> main </identifier>
+  <symbol> ( </symbol>
+  <parameterList>
+  </parameterList>
+  <symbol> ) </symbol>
+  <subroutineBody>
+    <symbol> { </symbol>
+    <varDec>
+      <keyword> var </keyword>
+      <identifier> SquareGame </identifier>
+      <identifier> game </identifier>
+      <symbol> ; </symbol>
+    </varDec>
+    <varDec>
+      <keyword> var </keyword>
+      <keyword> int </keyword>
+      <identifier> var1 </identifier>
+      <symbol> , </symbol>
+      <identifier> var2 </identifier>
+      <symbol> ; </symbol>
+    </varDec>
+    <varDec>
+      <keyword> var </keyword>
+      <keyword> char </keyword>
+      <identifier> varString </identifier>
+      <symbol> ; </symbol>
+    </varDec>
+    <varDec>
+      <keyword> var </keyword>
+      <keyword> boolean </keyword>
+      <identifier> truthy </identifier>
+      <symbol> ; </symbol>
+    </varDec>
+    <statements>
+    </statements>
+    <symbol> } </symbol>
+  </subroutineBody>
+</subroutineDec>

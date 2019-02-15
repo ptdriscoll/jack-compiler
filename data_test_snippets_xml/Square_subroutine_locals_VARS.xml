@@ -1,0 +1,39 @@
+<class>
+  <keyword> class </keyword>
+  <identifier kind="class"> Square </identifier>
+  <symbol> { </symbol>
+  <subroutineDec>
+    <keyword> method </keyword>
+    <keyword> void </keyword>
+    <identifier kind="subroutine"> draw </identifier>
+    <symbol> ( </symbol>
+    <parameterList>
+    </parameterList>
+    <symbol> ) </symbol>
+    <subroutineBody>
+      <symbol> { </symbol>
+      <varDec>
+        <keyword> var </keyword>
+        <keyword> int </keyword>
+        <identifier kind="var" type="int" index="0" assigned="false"> x </identifier>
+        <symbol> , </symbol>
+        <identifier kind="var" type="int" index="1" assigned="false"> y </identifier>
+        <symbol> ; </symbol>
+      </varDec>
+      <varDec>
+        <keyword> var </keyword>
+        <keyword> int </keyword>
+        <identifier kind="var" type="int" index="2" assigned="false"> size </identifier>
+        <symbol> ; </symbol>
+      </varDec>
+      <statements>
+        <returnStatement>
+          <keyword> return </keyword>
+          <symbol> ; </symbol>
+        </returnStatement>
+      </statements>
+      <symbol> } </symbol>
+    </subroutineBody>
+  </subroutineDec>
+  <symbol> } </symbol>
+</class>

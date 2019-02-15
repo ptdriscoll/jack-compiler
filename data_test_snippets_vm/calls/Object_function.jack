@@ -1,0 +1,6 @@
+class Object_function {
+   function void main() { 
+      do Other.action();   
+      return;
+   }
+}

@@ -1,0 +1,9 @@
+class Class_method {
+   method void action() {
+      return;
+   }   
+   method void main() { 
+      do action();   
+      return;
+   }
+}

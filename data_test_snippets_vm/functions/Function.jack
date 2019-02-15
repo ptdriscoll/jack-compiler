@@ -1,0 +1,5 @@
+class Function {
+   function void main() {      
+      return;
+   }
+}

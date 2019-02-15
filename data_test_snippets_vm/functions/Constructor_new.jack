@@ -1,0 +1,7 @@
+class Constructor_new {
+   constructor Constructor_new new() { 
+      var Constructor_new game;   
+      let game = Constructor_new.new();   
+      return this;
+   }
+}

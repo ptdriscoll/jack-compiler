@@ -1,0 +1,15 @@
+function Main.fillMemory 0
+label WHILE_EXP0
+push argument 0
+push constant 0
+gt
+not
+if-goto WHILE_END0
+push argument 0
+push constant 1
+sub
+pop argument 0
+goto WHILE_EXP0
+label WHILE_END0
+push constant 0
+return

@@ -1,0 +1,22 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/10/Square/Main.jack
+
+// (derived from projects/09/Square/Main.jack, with testing additions)
+
+/** Initializes a new Square Dance game and starts running it. */
+class Main {
+    static boolean test;    // Added for testing -- there is no static keyword
+                            // in the Square files.
+    function void main() {
+      var SquareGame game_1, game_2;
+      let game_1 = SquareGame.new();
+      let game_2 = SquareGame.new();
+      do game_1.run();
+      do game_2.run();
+      do game_1.dispose();      
+      do game_2.dispose();      
+      return;
+    }
+}

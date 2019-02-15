@@ -1,0 +1,39 @@
+<subroutineDec>
+  <keyword> function </keyword>
+  <keyword> void </keyword>
+  <identifier> test </identifier>
+  <symbol> ( </symbol>
+  <parameterList>
+  </parameterList>
+  <symbol> ) </symbol>
+  <subroutineBody>
+    <symbol> { </symbol>
+    <statements>
+      <letStatement>
+        <keyword> let </keyword>
+        <identifier> i </identifier>
+        <symbol> = </symbol>
+        <expression>
+          <term>
+            <identifier> i </identifier>
+          </term>
+          <symbol> * </symbol>
+          <term>
+            <symbol> ( </symbol>
+            <expression>
+              <term>
+                <symbol> - </symbol>
+                <term>
+                  <identifier> j </identifier>
+                </term>
+              </term>
+            </expression>
+            <symbol> ) </symbol>
+          </term>
+        </expression>
+        <symbol> ; </symbol>
+      </letStatement>
+    </statements>
+    <symbol> } </symbol>
+  </subroutineBody>
+</subroutineDec>

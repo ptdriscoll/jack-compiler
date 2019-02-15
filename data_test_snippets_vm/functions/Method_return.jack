@@ -1,0 +1,5 @@
+class Method_return {
+   method int main() {      
+      return 10;
+   }
+}

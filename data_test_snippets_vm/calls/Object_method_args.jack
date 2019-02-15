@@ -1,0 +1,8 @@
+class Object_method_args {     
+   function void main(int arg1, int arg2) { 
+      var Other other; 
+      let other = Other.new();   
+      do other.action();   
+      return;
+   }   
+}

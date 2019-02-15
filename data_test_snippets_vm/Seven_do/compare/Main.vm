@@ -1,0 +1,3 @@
+function Main.main 0
+call Output.printInt 0
+pop temp 0

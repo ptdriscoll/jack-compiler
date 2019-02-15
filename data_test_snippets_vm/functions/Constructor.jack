@@ -1,0 +1,5 @@
+class Constructor {
+   constructor Constructor new() {      
+      return this;
+   }
+}

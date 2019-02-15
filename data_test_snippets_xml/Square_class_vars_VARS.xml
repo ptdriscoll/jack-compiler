@@ -1,0 +1,20 @@
+<class>
+  <keyword> class </keyword>
+  <identifier kind="class"> Square </identifier>
+  <symbol> { </symbol>
+  <classVarDec>
+    <keyword> field </keyword>
+    <keyword> int </keyword>
+    <identifier kind="field" type="int" index="0" assigned="false"> x </identifier>
+    <symbol> , </symbol>
+    <identifier kind="field" type="int" index="1" assigned="false"> y </identifier>
+    <symbol> ; </symbol>
+  </classVarDec>
+  <classVarDec>
+    <keyword> field </keyword>
+    <keyword> int </keyword>
+    <identifier kind="field" type="int" index="2" assigned="false"> size </identifier>
+    <symbol> ; </symbol>
+  </classVarDec>
+  <symbol> } </symbol>
+</class>

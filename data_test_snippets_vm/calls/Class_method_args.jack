@@ -1,0 +1,9 @@
+class Class_method_args {
+   method void action(int arg1, int arg2) {
+      return;
+   }   
+   method void main() { 
+      do action(10, 20);   
+      return;
+   }    
+}

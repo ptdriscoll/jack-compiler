@@ -1,0 +1,69 @@
+<class>
+  <keyword> class </keyword>
+  <identifier kind="class"> Square </identifier>
+  <symbol> { </symbol>
+  <classVarDec>
+    <keyword> field </keyword>
+    <keyword> int </keyword>
+    <identifier kind="field" type="int" index="0" assigned="false"> x </identifier>
+    <symbol> ; </symbol>
+  </classVarDec>
+  <subroutineDec>
+    <keyword> method </keyword>
+    <keyword> char </keyword>
+    <identifier kind="subroutine"> draw </identifier>
+    <symbol> ( </symbol>
+    <parameterList>
+      <keyword> int </keyword>
+      <identifier kind="argument" type="int" index="1" assigned="false"> Ax </identifier>
+      <symbol> , </symbol>
+      <keyword> int </keyword>
+      <identifier kind="argument" type="int" index="2" assigned="false"> Ay </identifier>
+    </parameterList>
+    <symbol> ) </symbol>
+    <subroutineBody>
+      <symbol> { </symbol>
+      <varDec>
+        <keyword> var </keyword>
+        <keyword> int </keyword>
+        <identifier kind="var" type="int" index="0" assigned="false"> y </identifier>
+        <symbol> ; </symbol>
+      </varDec>
+      <statements>
+        <letStatement>
+          <keyword> let </keyword>
+          <identifier kind="field" type="int" index="0" assigned="true"> x </identifier>
+          <symbol> = </symbol>
+          <expression>
+            <term>
+              <identifier kind="argument" type="int" index="1" assigned="true"> Ax </identifier>
+            </term>
+          </expression>
+          <symbol> ; </symbol>
+        </letStatement>
+        <letStatement>
+          <keyword> let </keyword>
+          <identifier kind="var" type="int" index="0" assigned="true"> y </identifier>
+          <symbol> = </symbol>
+          <expression>
+            <term>
+              <identifier kind="argument" type="int" index="2" assigned="true"> Ay </identifier>
+            </term>
+          </expression>
+          <symbol> ; </symbol>
+        </letStatement>
+        <returnStatement>
+          <keyword> return </keyword>
+          <expression>
+            <term>
+              <keyword> this </keyword>
+            </term>
+          </expression>
+          <symbol> ; </symbol>
+        </returnStatement>
+      </statements>
+      <symbol> } </symbol>
+    </subroutineBody>
+  </subroutineDec>
+  <symbol> } </symbol>
+</class>

@@ -1,0 +1,3 @@
+function Function_args.main 2
+push local 0
+return
