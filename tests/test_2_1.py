@@ -9,20 +9,20 @@ To run all tests in the tests package: prompt> python -m unittest
 """
 
 from .context import compiler 
-from compiler import compilation_engine_vars
+from compiler import compilation_engine_xml_vars
 from compiler import symbol_table as var_table
 import unittest, filecmp
 
 
 class TestCompiler(unittest.TestCase):
     """
-    Check compilation_engine_vars on Square
+    Check compilation_engine_xml_vars on Square
     """
     
     print('\nCHECKING Square\n')
     
     def test_class(self):    
-        self.compile = compilation_engine_vars.CompilationEngine('./data_test_snippets_xml/Square_class.jack', 
+        self.compile = compilation_engine_xml_vars.CompilationEngine('./data_test_snippets_xml/Square_class.jack', 
                                                                 './data_test_snippets_xml/Square_class_VARS.xml', 
                                                                 test=True)
                                                                 
@@ -41,7 +41,7 @@ class TestCompiler(unittest.TestCase):
         self.assertEqual(compare, result)
         
     def test_class_vars(self):    
-        self.compile = compilation_engine_vars.CompilationEngine('./data_test_snippets_xml/Square_class_vars.jack', 
+        self.compile = compilation_engine_xml_vars.CompilationEngine('./data_test_snippets_xml/Square_class_vars.jack', 
                                                                 './data_test_snippets_xml/Square_class_vars_VARS.xml', 
                                                                 test=True)
                                                                 
@@ -76,7 +76,7 @@ class TestCompiler(unittest.TestCase):
         self.assertEqual(compare, result)       
 
     def test_subroutine_args(self):    
-        self.compile = compilation_engine_vars.CompilationEngine('./data_test_snippets_xml/Square_subroutine_args.jack', 
+        self.compile = compilation_engine_xml_vars.CompilationEngine('./data_test_snippets_xml/Square_subroutine_args.jack', 
                                                                 './data_test_snippets_xml/Square_subroutine_args_VARS.xml', 
                                                                 test=True)
                                                                  
@@ -120,7 +120,7 @@ class TestCompiler(unittest.TestCase):
         self.assertEqual(compare, result)
 
     def test_subroutine_method_args(self):    
-        self.compile = compilation_engine_vars.CompilationEngine('./data_test_snippets_xml/Square_subroutine_method_args.jack', 
+        self.compile = compilation_engine_xml_vars.CompilationEngine('./data_test_snippets_xml/Square_subroutine_method_args.jack', 
                                                                 './data_test_snippets_xml/Square_subroutine_method_args_VARS.xml', 
                                                                 test=True)
                                                                  
@@ -182,7 +182,7 @@ class TestCompiler(unittest.TestCase):
         self.assertEqual(compare, result)                 
 
     def test_subroutine_locals(self):    
-        self.compile = compilation_engine_vars.CompilationEngine('./data_test_snippets_xml/Square_subroutine_locals.jack', 
+        self.compile = compilation_engine_xml_vars.CompilationEngine('./data_test_snippets_xml/Square_subroutine_locals.jack', 
                                                                 './data_test_snippets_xml/Square_subroutine_locals_VARS.xml', 
                                                                 test=True)
                                                                  
@@ -238,7 +238,7 @@ class TestCompiler(unittest.TestCase):
         self.assertEqual(compare, result)  
 
     def test_subroutine_let(self):    
-        self.compile = compilation_engine_vars.CompilationEngine('./data_test_snippets_xml/Square_subroutine_let.jack', 
+        self.compile = compilation_engine_xml_vars.CompilationEngine('./data_test_snippets_xml/Square_subroutine_let.jack', 
                                                                 './data_test_snippets_xml/Square_subroutine_let_VARS.xml', 
                                                                 test=True)
                                                                  
@@ -324,7 +324,7 @@ class TestCompiler(unittest.TestCase):
         self.assertEqual(compare, result) 
 
     def test_subroutine_do(self):    
-        self.compile = compilation_engine_vars.CompilationEngine('./data_test_snippets_xml/Square_subroutine_do.jack', 
+        self.compile = compilation_engine_xml_vars.CompilationEngine('./data_test_snippets_xml/Square_subroutine_do.jack', 
                                                                 './data_test_snippets_xml/Square_subroutine_do_VARS.xml', 
                                                                 test=True)
                                                                  
@@ -430,7 +430,7 @@ class TestCompiler(unittest.TestCase):
         self.assertEqual(compare, result)   
 
     def test_subroutine_if(self):    
-        self.compile = compilation_engine_vars.CompilationEngine('./data_test_snippets_xml/Square_subroutine_if.jack', 
+        self.compile = compilation_engine_xml_vars.CompilationEngine('./data_test_snippets_xml/Square_subroutine_if.jack', 
                                                                 './data_test_snippets_xml/Square_subroutine_if_VARS.xml', 
                                                                 test=True)
                                                                  
@@ -510,7 +510,7 @@ class TestCompiler(unittest.TestCase):
         self.assertEqual(compare, result) 
 
     def test_subroutine_while(self):    
-        self.compile = compilation_engine_vars.CompilationEngine('./data_test_snippets_xml/Square_subroutine_while.jack', 
+        self.compile = compilation_engine_xml_vars.CompilationEngine('./data_test_snippets_xml/Square_subroutine_while.jack', 
                                                                 './data_test_snippets_xml/Square_subroutine_while_VARS.xml', 
                                                                 test=True)
                                                                  
