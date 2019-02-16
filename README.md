@@ -32,6 +32,10 @@ Examples from compiler directory:
 - To run the syntax analyzer on all files in the data/Pong directory directory: `python JackAnalyzer.py ../data/Pong`
 - To run the syntax analyzer on all .jack files and directories in the data directory: `python JackAnalyzer.py run_all`
 
+<br>
+
+<img src="img/standard-mapping.png" width="675">
+
 ### References
 
 - Website: https://www.nand2tetris.org/software
