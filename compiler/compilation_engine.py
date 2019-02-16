@@ -2,7 +2,7 @@
 
 """
 This class is the second half of a syntactic analyzer (the tokenizer is the first half), which parses 
-Jack programs according to the Jack grammar. The output, using the vm_writer class, is virtual machine code. 
+Jack programs according to the Jack grammar. The output, using vm_writer functions, is virtual machine code. 
 """
 
 import os, sys, ntpath, re
